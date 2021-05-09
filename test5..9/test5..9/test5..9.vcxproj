@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CF56F670-F9B4-4774-AA3F-44B461A15AE0}</ProjectGuid>
+    <ProjectGuid>{BD59FE0D-82CD-43A7-9E7E-12E45AECCF0E}</ProjectGuid>
     <RootNamespace>test59</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -65,11 +65,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Add.c" />
-    <ClCompile Include="函数.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Add.h" />
+    <ClCompile Include="函数+数组.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
