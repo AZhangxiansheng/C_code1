@@ -83,7 +83,7 @@
 //	return 0;
 //}
 
-////鍒ゆ柇绱犳暟
+////判断素数
 //int is_prime(int n)
 //{
 //	int i = 0;
@@ -131,7 +131,7 @@
 //}
 
 
-//int 浜屽垎鏌ユ壘(int arr[], int k,int sz)
+//int 二分查找(int arr[], int k,int sz)
 //{
 //	int left = 0;
 //	int right = sz-1;
@@ -154,12 +154,12 @@
 //	int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
 //	int k = 7;
 //	int sz = sizeof(arr) / sizeof(arr[0]);
-//	int ret = 浜屽垎鏌ユ壘(arr, k,sz);
+//	int ret = 二分查找(arr, k,sz);
 //	if (ret == -1){
-//		printf("鎵句笉鍒癨n");
+//		printf("找不到\n");
 //	}
 //	else{
-//		printf("鎵惧埌浜嗭紝涓嬫爣鏄細%d\n", ret);
+//		printf("找到了，下标是：%d\n", ret);
 //	}
 //	return 0;
 //
